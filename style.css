@@ -1,0 +1,233 @@
+#navbar {
+    display: flex;
+    justify-content: RIGHT;
+    align-items: center;
+    margin-left:auto;
+    border: 20px solid white;
+    
+}
+
+.nav-link a{
+    padding: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-size:  bold;
+    border: none;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.nav-link a:before {          /*animations*/ 
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link a:hover:before{
+    width: 100%;
+}
+.help-box {
+    background-color: #F0F0F0; 
+    width: 160px; 
+    height: 50px;
+    display: flexbox;
+    text-align: center;
+    padding: 10px;
+    color: orange;
+}
+.logo{
+    position: relative;
+    left: -400px;
+}
+  
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    width: 90px;
+  }
+.float-box{
+    position: fixed;
+    top: 200px;
+    right: 80px;
+    z-index: 10;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.book-now{
+    font-family: Arial, sans-serif;
+    display: flex;
+    padding: 40px 14px;
+    background-color: chocolate;
+    color: #F0F0F0;
+    text-decoration: none;
+    border-radius: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+ 
+.font-under-image{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 700px;
+    
+    border-right: 100px;
+    font-weight: inherit;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+.a7eten{
+    margin: auto;
+}
+.paragraph1{
+    float: left;
+    font-size: 20px;
+    width: 450px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}
+.paragraph2{
+    font-size: 20px;
+    width: 400px;
+    float: right;
+    margin-right: 190px;
+}
+
+.leftright1{
+    float: left;
+    font-size: 18px;
+    width: 850px;
+    background-color: #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 500px;
+    margin-left: 263px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.image1{
+    border: 1px solid #ccc;
+    float: right;
+    margin-right: 11px;
+}
+.rightleft1{
+    float: right;
+    font-size: 18px;
+    width: 850px;
+    background-color: #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 500px;
+    margin-right: 263px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+}
+.image2{
+    border: 1px solid #ccc;
+    float: left;
+    margin-LEFT: 11px;
+    margin-top: 50px;
+}
+.box{
+    float: left;
+    text-align: center;
+    margin: 200px;
+    margin-left: 450px;
+}
+.box1{
+   float: left;
+   margin-right: 20px;
+}
+.box2{
+    float: left;
+   margin-right: 20px;
+}
+.box3{
+    float: left;
+   margin-right: 20px;
+}
+.service{
+    font-size: 30px;
+}
+.limo{
+    font-size: 30px;
+}
+.housekeep{
+    font-size: 30px;
+}
+
+.last{
+    
+    margin-right: 900px;
+    width: 1830px;
+    float: left;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 0px;
+}
+.first{
+    font-size: 29px;
+    margin-right: 90px;
+}
+.second{
+    font-size: 29px;
+}
+.third{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 90px;
+    text-align: left;
+}
+.email-form {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.email-form input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.email-form input[type="submit"] {
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-form input[type="submit"]:hover {
+    background-color: chocolate;
+    
+}
+
